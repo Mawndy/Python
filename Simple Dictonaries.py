@@ -8,8 +8,6 @@ worker = {
 
 # Accessing dictionary values
 print (worker["name"])
-print (worker["age"])
-print (worker["occupation"])
 
 # Modifying dictionary values
 worker["age"] = 31  
