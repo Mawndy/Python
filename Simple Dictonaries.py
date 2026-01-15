@@ -1,0 +1,19 @@
+# Simple Dictonaries
+
+worker = {
+    "name": "Steven Smith",
+    "age": 30,
+    "occupation": "Software Developer"
+}
+
+# Accessing dictionary values
+print (worker["name"])
+print (worker["age"])
+print (worker["occupation"])
+
+# Modifying dictionary values
+worker["age"] = 31  
+worker["occupation"] = "Senior Software Developer"
+
+for key, value in worker.items():
+    print(key, value)
