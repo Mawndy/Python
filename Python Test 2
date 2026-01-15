@@ -1,6 +1,4 @@
 # Python Test 2, Simple Odd or Even number checker
-
-print("Welcome to the Odd or Even number checker!")
 userinput = input("Enter something: ")
 number = int(userinput)
 print("You entered the number:", number)
